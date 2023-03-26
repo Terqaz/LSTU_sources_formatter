@@ -1,6 +1,6 @@
 <?php
 
-$sources = yaml_parse_file('litra.yaml')['sources'];
+$sources = yaml_parse_file($argv[1])['sources'];
 
 // echo var_dump($sources);
 
