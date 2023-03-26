@@ -1,0 +1,192 @@
+sources:
+  - type: Книга
+    authors:
+      - 'Ядов В.А.'
+      
+    title: 'Социологическое исследование: методология, программа, методы'
+    edition:
+      number: ~
+      city: Самара
+      name: Самарский университет
+      year: 1995
+    pages_count: 328
+
+  - type: Книга
+
+    # пока что до 4 авторов вкл.
+    # можно и так и так
+    # authors: 'Зинченко В.П., Мещеряков Б.Г.'
+    authors:
+      - 'Зинченко В.П.'
+      - 'Мещеряков Б.Г.'
+
+    title: Большой психологический словарь
+    edition:
+      number: ~
+      city: СПб.
+      name: Прайм-ЕВРОЗНАК
+      year: 2006
+    pages_count: 672
+
+  - type: Книга
+
+    authors:
+      - 'Малхорта Н.К'
+      
+    title: 'Маркетинговые исследования. Практическое руководство'
+    eng_translaters: 'А. Р. Ганиевой, Э. В. Кондуковой, О. И. Медведь, А. И. Мороза, М. Ю. Нежуры и И. С. Половицы'
+    edition:
+      number: ~
+      city: Москва
+      name: Вильяме
+      year: 2002
+    pages_count: 960
+
+  - type: Статья из журнала
+
+    authors: 'Долженко Ю.Ю., Позднякова А.С.'
+      
+    title: 'Онлайн анкетирование как современный и эффективный способ исследования'
+    journal:
+      name: 'Транспортное дело России'
+      part_name: ~ # Название серии
+      year: 2015
+      volume: ~ # Том
+      editions: # издание
+        - number: 1 # номер
+          pages: '109-110'
+
+  - type: Книга
+
+    authors: 
+      - "О'Коннор Дж."
+      - 'Макдермотт Иан'
+      
+    title: 'Искусство системного мышления: Необходимые знания о системах и творческом подходе к решению проблем'
+    edition:
+      number: ~
+      city: Москва
+      name: Альпина Бизнес Букс
+      year: 2006
+    pages_count: 256
+  
+  - type: Книга
+
+    authors: 
+      - 'Купер Алан'
+      - 'Рейман Роберт'
+      - 'Кронин Дэвид'
+      - 'Носсел Кристофер'
+    eng_translaters: 'М. Зислиса'
+    title: 'Интерфейс. Основы проектирования взаимодействия'
+    edition:
+      number: ~
+      city: СПб.
+      name: Символ-Плюс
+      year: 2009
+    pages_count: 688
+
+  - type: Статья из журнала
+
+    authors: 'Никишов С.Н., Кислякова О.Д.'
+      
+    title: 'СОЦИАЛЬНЫЕ СЕТИ КАК ИНСТРУМЕНТ САМОПРЕЗЕНТАЦИИ ЛИЧНОСТИ'
+    journal:
+      name: 'ВЕСТНИК СОВРЕМЕННЫХ ИССЛЕДОВАНИЙ'
+      part_name: ~ # Название серии
+      year: 2018
+      volume: ~ # Том
+      editions: # издание
+        - number: '5.1' # номер
+          pages: '297-299'
+
+  - type: Статья из журнала
+
+    authors: 'Морозова Е. И.'
+      
+    title: 'ДЕВЕРБАЛИЗАЦИЯ КОНТЕНТА В СОЦИАЛЬНЫХ СЕТЯХ, ВЛИЯНИЕ НА ЖАНРЫ СОВРЕМЕННОЙ МЕДИЙНОЙ КУЛЬТУРЫ'
+    journal:
+      name: 'ЗНАК: ПРОБЛЕМНОЕ ПОЛЕ МЕДИАОБРАЗОВАНИЯ'
+      part_name: ~ # Название серии
+      year: 2016
+      volume: ~ # Том
+      editions: # издание
+        - number: '5' # номер
+          pages: '65-68'
+
+  - type: Книга
+
+    authors: 'Рахманова Ю. В.'
+    title: 'Социологическое исследование: методология, методика, техника'
+    edition:
+      number: ~
+      city: СПб.
+      name: РГПУ им. А.И. Герцена
+      year: 2005
+    pages_count: 134
+
+  - type: Статья из сборника
+
+    authors: 'ЧУХНО О.В., ЧУХНО Н.В., САМУЙЛОВ К.Е.'
+    title: 'ЧАТ-БОТ ДЛЯ ПРОВЕДЕНИЯ ПРОЦЕССА ГРУППОВОГО ПРИНЯТИЯ РЕШЕНИЙ'
+    digest:
+      name: 'XIII ВСЕРОССИЙСКОЕ СОВЕЩАНИЕ ПО ПРОБЛЕМАМ УПРАВЛЕНИЯ ВСПУ-2019'
+      city: 'Москва'
+      year: 2019
+      pages: '3034-3039'
+
+  - type: Ссылка
+
+    name: Online chat
+    description: Электронная статья
+    url: 'https://en.wikipedia.org/wiki/Online_chat'
+    access_date: '10.11.2022'
+
+  - type: Ссылка
+
+    name: ВКонтакте для разработчиков. Методы для работы с опросами
+    description: Электронная документация
+    url: 'https://dev.vk.com/method/polls'
+    access_date: '10.11.2022'
+
+  - type: Ссылка
+
+    name: Телеграм. API для работы с опросом
+    description: Электронная документация
+    url: 'https://core.telegram.org/api/poll'
+    access_date: '10.11.2022'
+
+  - type: Ссылка
+
+    name: Сервис рассылок ВКонтакте
+    description: Электронные данные
+    url: 'https://senler.ru/about'
+    access_date: '10.11.2022'
+
+  - type: Ссылка
+
+    name: Чат бот для вашего бизнеса
+    description: Электронные данные
+    url: 'https://botkits.ru/'
+    access_date: '10.11.2022'
+
+  - type: Ссылка
+
+    name: Botmother - конструктор полезных чат-ботов для бизнеса
+    description: Электронные данные
+    url: 'https://botmother.com/ru'
+    access_date: '10.11.2022'
+  
+  - type: Ссылка
+
+    name: AI Chat Bot Software for Your Website
+    description: Электронные данные
+    url: 'https://www.chatbot.com/'
+    access_date: '10.11.2022'
+
+  - type: Ссылка
+
+    name: What is Symfony
+    description: Электронная документация
+    url: 'https://symfony.com/what-is-symfony'
+    access_date: '10.11.2022'
