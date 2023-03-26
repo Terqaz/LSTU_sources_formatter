@@ -178,5 +178,5 @@ function formatLink(array $source): string
     return $source['name'] . ' [Электронный ресурс]. – ' .
         $source['description'] . ' – Режим доступа: ' .
         $source['url'] . ', свободный. – Дата доступа: ' .
-        $source['access_date'];
+        $source['access_date'] . '.';
 }
